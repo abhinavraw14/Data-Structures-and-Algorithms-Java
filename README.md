@@ -54,5 +54,3 @@ I’ll be posting my journey, progress, and learnings on LinkedIn as well.
 💡 Motivation
 
 “Consistency beats intensity. One step every day builds a habit, and habits shape success.”
-
-Would you like me to also create a progress tracker table inside the README (like Day 1 → Arrays basics, Day 2 → Traversing arrays, etc.) so that you can keep marking it as you go?
