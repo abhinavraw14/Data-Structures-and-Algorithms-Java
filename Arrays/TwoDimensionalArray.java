@@ -51,4 +51,19 @@ public class TwoDimensionalArray {
     }
   }
 
+  // Searching in 2D Array
+  public void Searching2DArray(int valueToBeSearched){
+
+    for(int i=0; i<arr.length; i++){
+      for(int j=0; j<arr[0].length; j++){
+        if(arr[i][j] == valueToBeSearched){
+          System.out.println( " value is at index: "+"("+i+ "," +j+")");
+        }
+      }
+      System.out.println();
+    }
+  }
+
+  
+
 }

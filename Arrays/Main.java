@@ -9,7 +9,8 @@ public class Main {
     sda.insertValueInTheArray(1, 0, 30);
     sda.insertValueInTheArray(2, 0, 40);
 
-    sda.traverse2DArray();
+    
+    sda.Searching2DArray(30);
     
 
  
