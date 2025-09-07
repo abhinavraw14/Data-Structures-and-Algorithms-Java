@@ -6,14 +6,13 @@ public class Main {
 
     sda.insertValueInTheArray(0, 0, 10);
     sda.insertValueInTheArray(0, 1, 20);
-    sda.accessCell(0, 1);
-    // //sda.insertValueInTheArray(0, 0, 20);
-    // for(int i=0; i<sda.arr.length; i++){
-    //   for(int j=0; j<sda.arr[0].length; j++){
-    //     System.out.print(sda.arr[i][j]+ " ");
-    //   }
-    //   System.out.println();
-    // }
+    sda.insertValueInTheArray(1, 0, 30);
+    sda.insertValueInTheArray(2, 0, 40);
+
+    sda.traverse2DArray();
+    
+
+ 
 
 
 
