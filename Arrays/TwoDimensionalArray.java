@@ -58,12 +58,14 @@ public class TwoDimensionalArray {
       for(int j=0; j<arr[0].length; j++){
         if(arr[i][j] == valueToBeSearched){
           System.out.println( " value is at index: "+"("+i+ "," +j+")");
+          return;
         }
       }
       System.out.println();
     }
   }
 
-  
+
+
 
 }
