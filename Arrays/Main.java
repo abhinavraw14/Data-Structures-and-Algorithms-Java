@@ -9,8 +9,10 @@ public class Main {
     sda.insertValueInTheArray(1, 0, 30);
     sda.insertValueInTheArray(2, 0, 40);
 
-    
-    sda.Searching2DArray(30);
+    System.out.println(Arrays.deepToString(sda.arr));
+    sda.deletingElements(0, 0);
+    System.out.println(Arrays.deepToString(sda.arr));
+
     
 
  

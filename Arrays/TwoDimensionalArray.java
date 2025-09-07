@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class TwoDimensionalArray {
@@ -63,6 +64,20 @@ public class TwoDimensionalArray {
       }
       System.out.println();
     }
+  }
+
+  // Deleting Array Elements In 2D Array
+  public void deletingElements(int indexRow, int indexCol){
+    // use try and catch block
+    try{
+      // deletion = setting the element value to either min value or 0(It cannot be null value)
+      System.out.println("Successfully Deleted: " + arr[indexRow] [indexCol]);
+      arr[indexRow][indexCol] = Integer.MIN_VALUE;
+    }catch(ArrayIndexOutOfBoundsException e){
+      System.out.println("This index is not valid for this Array");
+    }
+
+
   }
 
 
