@@ -56,7 +56,7 @@ public class Basics{
     jagged[1][0] = 3;
     jagged[1][1] = 4;
     jagged[1][2] = 5;
-    jagged[2][0] = 6;
+    jagged[2][9] = 6;
     for(int i = 0; i < jagged.length; i++) {
       for(int j = 0; j < jagged[i].length; j++) {
         System.out.print(jagged[i][j] + " ");
