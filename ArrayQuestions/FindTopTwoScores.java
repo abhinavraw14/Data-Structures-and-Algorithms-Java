@@ -1,5 +1,7 @@
 package ArrayQuestions;
 
+import java.util.Arrays;
+
 public class FindTopTwoScores {
   public static int[] findTopTwoScores(int [] array){
     // Best Score
@@ -27,7 +29,10 @@ public class FindTopTwoScores {
     return secondArray;
   }
   public static void main(String[] args) {
+
     int []myArray = {84,85,86,87,85,90,85,83,23,45,84,1,2,0};
 
+    int newArray[] = findTopTwoScores(myArray);
+    System.out.println(Arrays.toString(newArray));
   }
 }
